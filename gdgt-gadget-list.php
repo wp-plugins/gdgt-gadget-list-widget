@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: gdgt gadget list widget
-Plugin URI: http://user.gdgt.com/widget/
-Description: Widget to display a user's <a href="http://gdgt.com/">gdgt</a> have/want/had lists.
-Version: 1.0
+Plugin URI: http://gdgt.com/widgets/
+Description: Show off your gadgets! This widget displays your <a href="http://gdgt.com/">gdgt</a> Have, Want, and Had lists.
+Version: 0.1
 Author: Mark Rebec
 Author URI: http://user.gdgt.com/markrebec/
 */

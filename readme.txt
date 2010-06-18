@@ -2,7 +2,7 @@
 Contributors: Mark Rebec
 Tags: gdgt, widget, widgets, sidebar, gadget, gadgets, list
 Tested up to: 3.0
-Stable tag: trunk
+Stable tag: 1.0
 
 Show off your gadgets! This widget displays your gdgt Have, Want, and Had lists. For more, visit http://gdgt.com/widgets/
 
