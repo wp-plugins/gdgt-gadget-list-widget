@@ -19,8 +19,8 @@ define('GDGT_REFRESH_LIST', (60 * 60 * 24));
 
 add_action('init', 'gdgt_gadget_list_init');
 function gdgt_gadget_list_init() {
-  wp_enqueue_script('gdgt-gadget-list-js', WP_PLUGIN_URL . '/gdgt-gadget-list/gdgt-gadget-list.js');
-  wp_enqueue_style('gdgt-gadget-list-css', WP_PLUGIN_URL . '/gdgt-gadget-list/gdgt-gadget-list.css');
+  wp_enqueue_script('gdgt-gadget-list-js', WP_PLUGIN_URL . '/gdgt-gadget-list-widget/gdgt-gadget-list.js');
+  wp_enqueue_style('gdgt-gadget-list-css', WP_PLUGIN_URL . '/gdgt-gadget-list-widget/gdgt-gadget-list.css');
 }
 
 add_action('widgets_init', create_function('', 'return register_widget("GadgetListWidget");'));
