@@ -3,7 +3,7 @@
 Plugin Name: gdgt gadget list widget
 Plugin URI: http://gdgt.com/widgets/
 Description: Show off your gadgets! This widget displays your <a href="http://gdgt.com/">gdgt</a> Have, Want, and Had lists.
-Version: 1.0.1
+Version: 1.0.2
 Author: Mark Rebec
 Author URI: http://user.gdgt.com/markrebec/
 */
