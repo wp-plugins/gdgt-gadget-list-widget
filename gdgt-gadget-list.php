@@ -50,7 +50,7 @@ class GadgetListWidget extends WP_Widget {
     <div>
       <p>
         <label for="<?php echo $this->get_field_id('width'); ?>">width:</label>
-        <input type="text" id="<?php echo $this->get_field_id('width'); ?>" name="<?php echo $this->get_field_name('width'); ?>" value="<?php echo $instance['width'] ? $instance['width'] : 180; ?>" style="width: 40px;" />px
+        <input type="text" id="<?php echo $this->get_field_id('width'); ?>" name="<?php echo $this->get_field_name('width'); ?>" value="<?php echo $instance['width'] ? $instance['width'] : 200; ?>" style="width: 40px;" />px
       </p>
       <p>
         <label for="<?php echo $this->get_field_id('height'); ?>">height:</label>
