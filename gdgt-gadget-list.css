@@ -126,7 +126,7 @@
       content: "" !important;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li span {
-      display: none;
+      display: inline;
       float: none;
       color: #a0a0a0 !important;
     }
@@ -208,7 +208,7 @@
       height: 50px;
       padding: 0 !important;
       color: #333 !important;
-      font-family: arial, helvetica, sans-serif !important;
+	    font-family: arial, helvetica, sans-serif !important;
       font-size: 12px !important;
       font-weight: normal !important;
       text-align: left !important;
