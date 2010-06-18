@@ -76,7 +76,7 @@ function gdgt_gadget_list_widget($username, $options=array()) {
   $now = time();
   $datakey = 'gdgt_widget_' . $username;
   $timekey = $datakey . '_updated';
-  $data = get_option($datakey);
+  $data = (array) unserialize(get_option($datakey));
   $last_updated = get_option($timekey);
   
   if (!$data || !$last_updated || ($now - $last_updated) > GDGT_REFRESH_LIST) {
@@ -102,11 +102,10 @@ function create_gadget_list_widget($username, $options=array(), $data=null) {
     $show_counts = true;
   }
   
-  
   if ($data && is_array($data)) {
-    $firstname = $data['user']['first_name'];
-    $user_url = GDGT_USR_URL . '/' . $data['user']['user_name'] . '/';
-    $user_img = GDGT_IMG_URL . $data['user']['avatar_file_path'];
+    $firstname = $data['user']->first_name;
+    $user_url = GDGT_USR_URL . '/' . $data['user']->user_name . '/';
+    $user_img = GDGT_IMG_URL . $data['user']->avatar_file_path;
     
     if (is_array($data['have']))
       $have_count = count($data['have']);
