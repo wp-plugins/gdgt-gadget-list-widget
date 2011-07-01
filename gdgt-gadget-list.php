@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: gdgt gadget list widget
-Plugin URI: http://gdgt.com/widgets/
+Plugin URI: http://gdgt.com/
 Description: Show off your gadgets! This widget displays your <a href="http://gdgt.com/">gdgt</a> Have, Want, and Had lists.
 Version: 1.0.4
-Author: Mark Rebec
-Author URI: http://user.gdgt.com/markrebec/
+Author: gdgt
+Author URI: http://gdgt.com/
 */
 
 define('GDGT_HOST', 'gdgt.com');
