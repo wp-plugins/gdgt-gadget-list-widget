@@ -1,5 +1,5 @@
 === gdgt gadget list widget ===
-Contributors: Mark Rebec
+Contributors: gdgt
 Tags: gdgt, widget, widgets, sidebar, gadget, gadgets, list
 Tested up to: 3.0
 Stable tag: 1.0.4
