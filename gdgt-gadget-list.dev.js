@@ -1,3 +1,9 @@
+GDGT_HOST = 'gdgt.com';
+GDGT_URL = 'http://' + GDGT_HOST;
+GDGT_API_URL = 'http://api.' + GDGT_HOST + '/';
+GDGT_USR_URL = 'http://user.' + GDGT_HOST + '/';
+GDGT_IMG_URL = 'http://media.gdgt.com/img/';
+GDGT_CSS_URL = 'http://media.gdgt.com/assets/css/';
 /*
  * gdgt API JavaScript Library v1.0
  * http://gdgt.com/
@@ -6,14 +12,6 @@
  * inspired by the jQuery library (http://jquery.com)
  *
  */ 
-
-GDGT_HOST = 'gdgt.com';
-GDGT_CDN_URL = 'http://media.gdgt.com/';
-GDGT_URL = 'http://' + GDGT_HOST;
-GDGT_API_URL = 'http://api.' + GDGT_HOST + '/';
-GDGT_USR_URL = 'http://user.' + GDGT_HOST + '/';
-GDGT_IMG_URL = GDGT_CDN_URL + 'img/';
-GDGT_CSS_URL = GDGT_CDN_URL + 'css/';
 
 (function (window, undefined) {
   var gdgt = function(selector, context) {
@@ -680,7 +678,7 @@ gdgt.gadgetListWidget.fn = gdgt.gadgetListWidget.prototype = {
   populateData: function(data) {
     var have, want, had;
 
-    this.find('div.gdgt-widget-header h4 a').attr('href', gdgt.fn.USR_URL + data.user.user_name + '/').attr('title', data.user.user_name + ' on gdgt');
+    this.find('div.gdgt-widget-header h4 a').attr('href', data.user.profile_url).attr('title', data.user.user_name + ' on gdgt');
     this.find('div.gdgt-widget-header a.gdgt-logo').attr('href', gdgt.fn.URL + '/');
 
     have = this.find('div.gdgt-widget-list ul.have-list');

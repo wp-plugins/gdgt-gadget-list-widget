@@ -1,35 +1,47 @@
     body div.gdgt-gadget-list-widget {
       position: relative;
       margin: 0;
-      padding: 5px 0 5px 0;
+      padding: 5px 0;
       color: #333;
       background: #fff;
-      font-family: arial, helvetica, sans-serif !important;
       font-size: 12px;
     }
     body div.gdgt-gadget-list-widget * {
+      float: none;
+      clear: none;
       width: auto;
       height: auto;
       margin: 0;
       padding: 0;
-      border: none;
-    }
-    
-    body div.gdgt-gadget-list-widget a, 
-    body div.gdgt-gadget-list-widget a:link, 
-    body div.gdgt-gadget-list-widget a:visited, 
-    body div.gdgt-gadget-list-widget a:hover, 
-    body div.gdgt-gadget-list-widget a:active {
-      margin: 0;
-      padding: 0;
-      color: #333;
+      left: auto;
+      right: auto;
+      top: auto;
+      bottom: auto;
       background: none;
+      border: none;
+      list-style: none !important;
+      font-family: arial, helvetica, sans-serif !important;
+      text-align: left;
       text-decoration: none !important;
-      text-shadow: none !important;
+      text-indent: 0 !important;
       text-transform: none !important;
+      text-shadow: none !important;
+      word-spacing: normal !important;
+      cursor: auto !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      z-index: auto !important;
+    }
+
+    body div.gdgt-gadget-list-widget a,
+    body div.gdgt-gadget-list-widget a:link,
+    body div.gdgt-gadget-list-widget a:visited,
+    body div.gdgt-gadget-list-widget a:hover,
+    body div.gdgt-gadget-list-widget a:active {
+      color: #333;
       border: none !important;
     }
-    
+
     body div.gdgt-gadget-list-widget div.gdgt-widget-header {
       height: 50px !important;
       margin: 0 5px !important;
@@ -42,25 +54,24 @@
       float: left;
       width: 49px !important;
       height: 23px !important;
-      background: url(http://media.gdgt.com/img/site/gadget-list-widget-sprite.gif) 0 0 no-repeat;
+      background: url(http://media.gdgt.com/assets/img/site/gadget-list-widget-sprite.gif) 0 0 no-repeat;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header a.gdgt-logo:hover {
-      background: url(http://media.gdgt.com/img/site/gadget-list-widget-sprite.gif) 0 -23px no-repeat;
+      background-position: 0 -23px;
     }
-    
+
     body div.gdgt-gadget-list-widget div.gdgt-widget-header h4 {
       clear: none !important;
       height: 23px !important;
       margin: 0 0 0 57px !important;
       padding: 0 !important;
-      font-family: arial, helvetica, sans-serif !important;
-      font-size: 16px !important;
-      line-height: 20px !important;
       text-align: left !important;
+      line-height: 20px !important;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header h4 a,
     body div.gdgt-gadget-list-widget div.gdgt-widget-header h4 a:visited {
       color: #333 !important;
+      font-family: arial, helvetica, sans-serif !important;
       font-size: 16px !important;
       font-weight: normal !important;
     }
@@ -76,9 +87,8 @@
       width: 100%;
       height: 25px !important;
       margin: 0 !important;
-      padding: 3px 0 0 0 !important;
+      padding: 3px 0 0 !important;
       background: none !important;
-      list-style: none;
       border: none !important;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li {
@@ -90,15 +100,11 @@
       padding: 0 !important;
       bottom: 0;
       background: #f4f4f4 !important;
+      border: none !important;
       color: #333 !important;
-      font-family: arial, helvetica, sans-serif !important;
-      font-size: 12px !important;
-      font-weight: bold !important;
-      text-align: center;
+      text-align: center !important;
       line-height: 24px !important;
       cursor: pointer;
-      list-style: none;
-      border: none !important;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li.want {
       width: 34%;
@@ -108,10 +114,12 @@
       display: block !important;
       float: none !important;
       padding: 0 !important;
+      border: none !important;
       color: #333 !important;
       font-size: 12px !important;
+      font-weight: bold !important;
+      text-align: center !important;
       line-height: 24px !important;
-      border: none !important;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li a:hover {
       background: #e3e3e3;
@@ -121,34 +129,29 @@
       background: #333;
       color: #fff !important;
     }
-    body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li:before, 
-    body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li:after {
-      content: "" !important;
-    }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li span {
       display: inline;
       float: none;
       color: #a0a0a0 !important;
     }
-    
-    
-    
+
+
+
     body div.gdgt-gadget-list-widget div.gdgt-widget-list {
-      margin: 0 5px 0 5px !important;
+      margin: 0 5px !important;
       padding: 0 !important;
       background: #fff;
       color: #000;
       border-top: 2px solid #333;
       border-bottom: 1px solid #333;
     }
-    body div.gdgt-gadget-list-widget div.gdgt-widget-list a, 
-    body div.gdgt-gadget-list-widget div.gdgt-widget-list a:link, 
-    body div.gdgt-gadget-list-widget div.gdgt-widget-list a:visited, 
-    body div.gdgt-gadget-list-widget div.gdgt-widget-list a:hover, 
+    body div.gdgt-gadget-list-widget div.gdgt-widget-list a,
+    body div.gdgt-gadget-list-widget div.gdgt-widget-list a:link,
+    body div.gdgt-gadget-list-widget div.gdgt-widget-list a:visited,
+    body div.gdgt-gadget-list-widget div.gdgt-widget-list a:hover,
     body div.gdgt-gadget-list-widget div.gdgt-widget-list a:active {
       margin: 0 !important;
       padding: 0 !important;
-      background: none;
       color: #333 !important;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-list ul.gadget-list {
@@ -158,7 +161,6 @@
       margin: 0 !important;
       padding: 0 !important;
       overflow: auto;
-      list-style: none;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-list ul.want-list {
       display: none;
@@ -173,16 +175,17 @@
       margin: 0 !important;
       padding: 0 !important;
       background: none !important;
-      text-indent: 0;
       border-bottom: 1px solid #e3e3e3 !important;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-list ul.gadget-list li.message {
       display: table-cell;
-      vertical-align: middle;
       text-align: center;
-      border-bottom: none;
+      vertical-align: middle;
+      border-bottom: 0;
     }
-    body div.gdgt-gadget-list-widget div.gdgt-widget-list ul.gadget-list li:before, 
+    body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li:before,
+    body div.gdgt-gadget-list-widget div.gdgt-widget-header ul.tabs li:after,
+    body div.gdgt-gadget-list-widget div.gdgt-widget-list ul.gadget-list li:before,
     body div.gdgt-gadget-list-widget div.gdgt-widget-list ul.gadget-list li:after {
       content: "" !important;
     }
@@ -208,18 +211,16 @@
       height: 50px;
       padding: 0 !important;
       color: #333 !important;
-	    font-family: arial, helvetica, sans-serif !important;
       font-size: 12px !important;
       font-weight: normal !important;
       text-align: left !important;
       vertical-align: middle;
     }
-    
-    
+
+
     body div.gdgt-gadget-list-widget div.gdgt-widget-footer {
       height: 14px;
-      margin: 5px 5px 0 5px;
-      padding: 0;
+      margin: 5px 5px 0;
       line-height: 14px;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-footer a.create-list {

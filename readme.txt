@@ -1,7 +1,8 @@
 === gdgt gadget list widget ===
 Contributors: gdgt
 Tags: gdgt, widget, widgets, sidebar, gadget, gadgets, list
-Tested up to: 3.0
+Requires at least: 2.8
+Tested up to: 3.2.1
 Stable tag: 1.0.4
 
 Show off your gadgets! This widget displays your gdgt Have, Want, and Had lists. For more, visit http://gdgt.com/widgets/
