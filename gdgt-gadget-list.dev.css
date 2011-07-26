@@ -54,7 +54,7 @@
       float: left;
       width: 49px !important;
       height: 23px !important;
-      background: url(http://media.gdgt.com/assets/img/site/gadget-list-widget-sprite.gif) 0 0 no-repeat;
+      background: url(http://media.gdgt.com/assets/img/widgets/gadget-list-widget-sprite.gif) 0 0 no-repeat;
     }
     body div.gdgt-gadget-list-widget div.gdgt-widget-header a.gdgt-logo:hover {
       background-position: 0 -23px;
