@@ -9,7 +9,7 @@ Show off your gadgets! This widget displays your gdgt Have, Want, and Had lists.
 
 == Installation ==
 
-Obviously, you'll want to start by installing and activating the widget!
+Obviously, you'll want to start by installing and activating the widget! (If you have any caching enabled, such as wp_supercache, make sure you clear it once installation is complete.)
 
 = Sidebar =
 1. Drag the widget into your sidebar.
