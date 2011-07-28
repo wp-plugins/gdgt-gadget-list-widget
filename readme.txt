@@ -4,6 +4,7 @@ Tags: gdgt, widget, widgets, sidebar, gadget, gadgets, list
 Requires at least: 2.8
 Tested up to: 3.2.1
 Stable tag: 1.1
+License: GPLv2 or later
 
 Show off your gadgets! This widget displays your gdgt Have, Want, and Had lists in a WordPress widget. For more, visit [gdgt widgets](http://gdgt.com/widgets/ "gdgt WordPress widget information")
 
