@@ -40,3 +40,18 @@ If you've set the width to lower than 200 pixels, the widget's list count is dis
 == Screenshots ==
 
 1. Display your gdgt gadget list in a WordPress widget.
+
+== Changelog ==
+
+= 1.1 =
+
+* Only load gdgt JavaScript and CSS when widget is active for a given view
+* Remote JSON feed replaces serialized PHP
+* Use WordPress HTTP API for improved compatibility with WordPress installs
+* Properly escape outputted text
+
+== Upgrade notice ==
+
+= 1.1 =
+
+New API endpoints, improved compatibility, PHP5 updates.
