@@ -35,3 +35,7 @@ Yes. The widget can scale between 180-500 pixels wide, and 200-500 pixels tall.
 = The list count is set to yes, why isn't it showing? =
 
 If you've set the width to lower than 200 pixels, the widget's list count is disabled.
+
+== Screenshots ==
+
+1. Display your gdgt gadget list in a WordPress widget.
