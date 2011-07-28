@@ -1,12 +1,13 @@
 <?php
 /*
-  Plugin Name: gdgt gadget list widget
-  Plugin URI: http://gdgt.com/
-  Description: Show off your gadgets! This widget displays your <a href="http://gdgt.com/">gdgt</a> Have, Want, and Had lists.
-  Version: 1.1
-  Author: gdgt
-  Author URI: http://gdgt.com/
- */
+Plugin Name: gdgt gadget list widget
+Plugin URI: http://gdgt.com/
+Description: Show off your gadgets! This widget displays your <a href="http://gdgt.com/">gdgt</a> Have, Want, and Had lists.
+Version: 1.1
+Author: gdgt
+Author URI: http://gdgt.com/
+License: GPLv2 or later
+*/
 
 define('GDGT_HOST', 'gdgt.com');
 define('GDGT_CDN_URL', 'http://media.gdgt.com/');
