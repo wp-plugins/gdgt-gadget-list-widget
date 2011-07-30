@@ -9,6 +9,7 @@ Author URI: http://gdgt.com/
 License: GPLv2 or later
 */
 
+define( 'GDGT_VERSION', '1.1' );
 define( 'GDGT_HOST', 'gdgt.com' );
 define( 'GDGT_CDN_URL', 'http://media.gdgt.com/' );
 define( 'GDGT_URL', 'http://' . GDGT_HOST );
@@ -23,7 +24,7 @@ define( 'GDGT_REFRESH_LIST', (60 * 60 * 24) );
  */
 function gdgt_gadget_list_init() {
 	if ( is_active_widget( false, false, 'gadgetlistwidget' ) ) {
-		wp_enqueue_script( 'gdgt-gadget-list-js', plugins_url( 'gdgt-gadget-list.js', __FILE__ ) );
+		wp_enqueue_script( 'gdgt-gadget-list-js', plugins_url( 'gdgt-gadget-list.js', __FILE__ ), null, GDGT_VERSION );
 		wp_enqueue_style( 'gdgt-gadget-list-css', plugins_url( 'gdgt-gadget-list.css', __FILE__ ), null, null, 'all' );
 	}
 }
