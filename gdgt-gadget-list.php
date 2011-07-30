@@ -36,7 +36,7 @@ class GadgetListWidget extends WP_Widget {
   }
 
   function GadgetListWidget() {
-    __construct();
+    $this->__construct();
   }
 
   function widget($args, $instance) {
