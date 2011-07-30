@@ -115,7 +115,7 @@ function gdgt_gadget_list_widget( $username, $options=array() ) {
 
 		if ( $last_updated === false || ($now - $last_updated) > GDGT_REFRESH_LIST ) {
 			$response = wp_remote_get(GDGT_API_URL . '/profile/' . strtolower($username) . '/gadgets.jsonp');
-			if ( true || ! is_wp_error( $response ) && wp_remote_retrieve_response_code( $response ) == 200) {
+			if ( ! is_wp_error( $response ) && wp_remote_retrieve_response_code( $response ) == 200) {
 				$response_body = trim( wp_remote_retrieve_body( $response ) );
 				if ( empty( $response_body ) )
 					return;
