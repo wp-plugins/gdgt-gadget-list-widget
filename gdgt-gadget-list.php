@@ -144,7 +144,7 @@ function gdgt_gadget_list_widget( $username, $options=array() ) {
 function create_gadget_list_widget( $username, $options=array(), $data=null ) {
 	$have_count = $want_count = $had_count = 0;
 	$user_url = $user_img = '';
-	if ( isset( $options['showcount'] ) && $options['showcount'] === false ) {
+	if ( isset( $options['showcount'] ) && ( $options['showcount'] === false || $options['showcount'] === 'false' ) ) {
 		$options['showcount'] = 'false';
 		$show_counts = false;
 	} else {
