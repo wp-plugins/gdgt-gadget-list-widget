@@ -3,11 +3,11 @@
     <a href="<?php echo esc_url( GDGT_URL, array( 'http', 'https' ) ); ?>" class="gdgt-logo" title="gdgt"></a>
     <h4><a href="<?php echo esc_url( $user_url ); ?>" title="<?php echo esc_attr( $username ); ?> on gdgt"><?php echo __( 'my <strong>gadgets</strong>', 'gdgt-gadget-list-widget' ); ?></a></h4>
     <ul class="tabs">
-      <li class="have selected"><a class="have" title="have (<?php echo $have_count; ?>)"><?php echo __( 'has', 'gdgt-gadget-list-widget' ); ?> <span class="count"><?php if ( $have_count > 0 && $show_counts )
+      <li class="have selected"><a class="have" title="have (<?php echo $have_count; ?>)"><?php echo __( 'has', 'gdgt-gadget-list-widget' ); ?> <span class="count"><?php if ( $show_counts && $have_count > 0 )
   echo '(' . $have_count . ')'; ?></span></a></li>
-      <li class="want"><a class="want" title="want (<?php echo $want_count; ?>)">wants <span class="count"><?php if ( $want_count > 0 && $show_counts )
+      <li class="want"><a class="want" title="want (<?php echo $want_count; ?>)">wants <span class="count"><?php if ( $show_counts && $want_count > 0 )
   echo '(' . $want_count . ')'; ?></span></a></li>
-      <li class="had"><a class="had" title="had (<?php echo $had_count; ?>)">had <span class="count"><?php if ( $had_count > 0 && $show_counts )
+      <li class="had"><a class="had" title="had (<?php echo $had_count; ?>)">had <span class="count"><?php if ( $show_counts && $had_count > 0 )
   echo '(' . $had_count . ')'; ?></span></a></li>
     </ul>
   </div>
