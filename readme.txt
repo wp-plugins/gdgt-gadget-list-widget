@@ -44,8 +44,11 @@ If you've set the width to lower than 200 pixels, the widget's list count is dis
 
 == Changelog ==
 
-= 1.1 =
+= 1.1.1 = 
+* Fixed class constructor error when running on PHP 4
+* Fixed errors regarding showing the product count.
 
+= 1.1 =
 * Only load gdgt JavaScript and CSS when widget is active for a given view
 * Remote JSON feed replaces serialized PHP
 * Use WordPress HTTP API for improved compatibility with WordPress installs
@@ -53,6 +56,8 @@ If you've set the width to lower than 200 pixels, the widget's list count is dis
 
 == Upgrade notice ==
 
-= 1.1 =
+= 1.1.1 = 
+Further compatibility with PHP 4 installs.
 
+= 1.1 =
 New API endpoints, improved compatibility, PHP5 updates.
